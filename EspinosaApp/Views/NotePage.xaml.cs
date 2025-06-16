@@ -1,4 +1,4 @@
-namespace EspinosaApp;
+namespace EspinosaApp.Views;
 
 public partial class NotePage : ContentPage
 {
