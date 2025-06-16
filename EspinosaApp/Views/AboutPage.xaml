@@ -4,21 +4,24 @@
              xmlns:models="clr-namespace:EspinosaApp.Models"
              x:Class="EspinosaApp.Views.AboutPage"
              x:DataType="models:About"
-             Title="AboutPage">
+             Title="About Abi">
     <ContentPage.BindingContext>
         <models:About />
     </ContentPage.BindingContext>
-    <VerticalStackLayout Spacing="10" Margin="10">
-        <HorizontalStackLayout Spacing="10">
-            <Image Source="dotnet_bot.png"
-                   SemanticProperties.Description="The dot net bot waving hello!"
-                   HeightRequest="64" />
-            <Label FontSize="22" FontAttributes="Bold" Text="{Binding Title}" VerticalOptions="End" />
-            <Label FontSize="22" Text="{Binding Version}" VerticalOptions="End" />
-        </HorizontalStackLayout>
+    <VerticalStackLayout Spacing="20" Padding="30" HorizontalOptions="Center">
+        <Image Source="gato.jpeg"
+               HeightRequest="120"
+               HorizontalOptions="Center" />
 
-        <Label Text="{Binding Message}" />
-        <Button Text="Learn more..." Clicked="LearnMore_Clicked" />
+        <Label Text="Abigail Espinosa"
+               FontSize="28"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Label Text="Soy estudiante de Ingeniería en Software y me gusta dibujar y la programacion front"
+               FontSize="18"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"/>
     </VerticalStackLayout>
 
 </ContentPage>

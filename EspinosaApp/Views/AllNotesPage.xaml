@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:EspinosaApp.Models"
              x:Class="EspinosaApp.Views.AllNotesPage"
-             Title="AllNotesPage"
+             Title="Pagina"
              x:DataType="models:AllNotes">
     <!-- Add an item to the toolbar -->
     <ContentPage.ToolbarItems>

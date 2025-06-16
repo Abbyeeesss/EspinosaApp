@@ -14,9 +14,10 @@
             Icon="{OnPlatform 'notes.png'}" />
 
         <ShellContent
-            Title="About"
-            ContentTemplate="{DataTemplate local:NotePage}"
-            Icon="{OnPlatform 'about.png'}" />
+            Title="Sobre Abi"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            Icon="{OnPlatform 'about.png'}" />  
+
     </TabBar>
 
 </Shell>
