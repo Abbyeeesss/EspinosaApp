@@ -10,7 +10,7 @@
     <TabBar>
         <ShellContent
             Title="Notes"
-            ContentTemplate="{DataTemplate views:AllNotesPage}"
+            ContentTemplate="{DataTemplate local:AllNotesPage}"
             Icon="{OnPlatform 'notes.png'}" />
 
         <ShellContent
